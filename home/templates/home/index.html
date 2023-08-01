@@ -32,7 +32,7 @@
                     <a class="nav-link" href="{% url 'register' %}">Register</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="{% url 'blog_post' % }">Posts</a>
                 </li>
             </ul>
         </div>
@@ -59,7 +59,7 @@
         </div>
     </div>
     {% block content%}
-    
+
     {% endblock%}
 
     <!-- Add Bootstrap JS and jQuery -->

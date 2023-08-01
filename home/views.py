@@ -23,3 +23,4 @@ def register(request):
     
 def infos(request):
    return render(request,'home/info.html')
+
